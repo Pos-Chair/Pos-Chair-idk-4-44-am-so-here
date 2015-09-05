@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CA815041B9AB34700D7ABD1 /* 120icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA815031B9AB34700D7ABD1 /* 120icon.png */; };
+		1CE890601B9A7FE000708EB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE8905F1B9A7FE000708EB2 /* AppDelegate.swift */; };
+		1CE890621B9A7FE000708EB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE890611B9A7FE000708EB2 /* ViewController.swift */; };
+		1CE890651B9A7FE000708EB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CE890631B9A7FE000708EB2 /* Main.storyboard */; };
+		1CE890671B9A7FE000708EB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CE890661B9A7FE000708EB2 /* Images.xcassets */; };
+		1CE8906A1B9A7FE000708EB2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CE890681B9A7FE000708EB2 /* LaunchScreen.xib */; };
+		1CE890761B9A7FE000708EB2 /* Pos_ChairTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE890751B9A7FE000708EB2 /* Pos_ChairTests.swift */; };
+		1CE890801B9A855C00708EB2 /* SourceSansPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1CE8907F1B9A855C00708EB2 /* SourceSansPro-Light.otf */; };
+		1CE890821B9A877400708EB2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE890811B9A877400708EB2 /* SecondViewController.swift */; };
+		1CE890851B9A8D7200708EB2 /* FrontPageLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CE890831B9A8D7200708EB2 /* FrontPageLogo.png */; };
+		1CE890861B9A8D7200708EB2 /* StoreIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CE890841B9A8D7200708EB2 /* StoreIcon.png */; };
+		1CE890881B9A95F800708EB2 /* imageedit_1_3225234892.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1CE890871B9A95F800708EB2 /* imageedit_1_3225234892.gif */; };
+		1CE8908A1B9AA67B00708EB2 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE890891B9AA67B00708EB2 /* GraphView.swift */; };
+		1CE890901B9AAE7400708EB2 /* imageedit_1_8152280095.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1CE8908F1B9AAE7400708EB2 /* imageedit_1_8152280095.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CE890701B9A7FE000708EB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CE890521B9A7FE000708EB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CE890591B9A7FE000708EB2;
+			remoteInfo = "Pos-Chair";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CA815031B9AB34700D7ABD1 /* 120icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120icon.png; sourceTree = "<group>"; };
+		1CE8905A1B9A7FE000708EB2 /* Pos-Chair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pos-Chair.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CE8905E1B9A7FE000708EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CE8905F1B9A7FE000708EB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CE890611B9A7FE000708EB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CE890641B9A7FE000708EB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CE890661B9A7FE000708EB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1CE890691B9A7FE000708EB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1CE8906F1B9A7FE000708EB2 /* Pos-ChairTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pos-ChairTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CE890741B9A7FE000708EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CE890751B9A7FE000708EB2 /* Pos_ChairTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pos_ChairTests.swift; sourceTree = "<group>"; };
+		1CE8907F1B9A855C00708EB2 /* SourceSansPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Light.otf"; sourceTree = "<group>"; };
+		1CE890811B9A877400708EB2 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1CE890831B9A8D7200708EB2 /* FrontPageLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FrontPageLogo.png; sourceTree = "<group>"; };
+		1CE890841B9A8D7200708EB2 /* StoreIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StoreIcon.png; sourceTree = "<group>"; };
+		1CE890871B9A95F800708EB2 /* imageedit_1_3225234892.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = imageedit_1_3225234892.gif; sourceTree = "<group>"; };
+		1CE890891B9AA67B00708EB2 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		1CE8908F1B9AAE7400708EB2 /* imageedit_1_8152280095.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = imageedit_1_8152280095.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CE890571B9A7FE000708EB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CE8906C1B9A7FE000708EB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CE890511B9A7FE000708EB2 = {
+			isa = PBXGroup;
+			children = (
+				1CE8905C1B9A7FE000708EB2 /* Pos-Chair */,
+				1CE890721B9A7FE000708EB2 /* Pos-ChairTests */,
+				1CE8905B1B9A7FE000708EB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CE8905B1B9A7FE000708EB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CE8905A1B9A7FE000708EB2 /* Pos-Chair.app */,
+				1CE8906F1B9A7FE000708EB2 /* Pos-ChairTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CE8905C1B9A7FE000708EB2 /* Pos-Chair */ = {
+			isa = PBXGroup;
+			children = (
+				1CE8905F1B9A7FE000708EB2 /* AppDelegate.swift */,
+				1CE890611B9A7FE000708EB2 /* ViewController.swift */,
+				1CE890811B9A877400708EB2 /* SecondViewController.swift */,
+				1CE890891B9AA67B00708EB2 /* GraphView.swift */,
+				1CE890631B9A7FE000708EB2 /* Main.storyboard */,
+				1CE890661B9A7FE000708EB2 /* Images.xcassets */,
+				1CE890681B9A7FE000708EB2 /* LaunchScreen.xib */,
+				1CE8905D1B9A7FE000708EB2 /* Supporting Files */,
+			);
+			path = "Pos-Chair";
+			sourceTree = "<group>";
+		};
+		1CE8905D1B9A7FE000708EB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CE8908F1B9AAE7400708EB2 /* imageedit_1_8152280095.gif */,
+				1CE890871B9A95F800708EB2 /* imageedit_1_3225234892.gif */,
+				1CA815031B9AB34700D7ABD1 /* 120icon.png */,
+				1CE890831B9A8D7200708EB2 /* FrontPageLogo.png */,
+				1CE890841B9A8D7200708EB2 /* StoreIcon.png */,
+				1CE8907F1B9A855C00708EB2 /* SourceSansPro-Light.otf */,
+				1CE8905E1B9A7FE000708EB2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CE890721B9A7FE000708EB2 /* Pos-ChairTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CE890751B9A7FE000708EB2 /* Pos_ChairTests.swift */,
+				1CE890731B9A7FE000708EB2 /* Supporting Files */,
+			);
+			path = "Pos-ChairTests";
+			sourceTree = "<group>";
+		};
+		1CE890731B9A7FE000708EB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CE890741B9A7FE000708EB2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CE890591B9A7FE000708EB2 /* Pos-Chair */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CE890791B9A7FE000708EB2 /* Build configuration list for PBXNativeTarget "Pos-Chair" */;
+			buildPhases = (
+				1CE890561B9A7FE000708EB2 /* Sources */,
+				1CE890571B9A7FE000708EB2 /* Frameworks */,
+				1CE890581B9A7FE000708EB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pos-Chair";
+			productName = "Pos-Chair";
+			productReference = 1CE8905A1B9A7FE000708EB2 /* Pos-Chair.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CE8906E1B9A7FE000708EB2 /* Pos-ChairTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CE8907C1B9A7FE000708EB2 /* Build configuration list for PBXNativeTarget "Pos-ChairTests" */;
+			buildPhases = (
+				1CE8906B1B9A7FE000708EB2 /* Sources */,
+				1CE8906C1B9A7FE000708EB2 /* Frameworks */,
+				1CE8906D1B9A7FE000708EB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CE890711B9A7FE000708EB2 /* PBXTargetDependency */,
+			);
+			name = "Pos-ChairTests";
+			productName = "Pos-ChairTests";
+			productReference = 1CE8906F1B9A7FE000708EB2 /* Pos-ChairTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CE890521B9A7FE000708EB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Paul MD";
+				TargetAttributes = {
+					1CE890591B9A7FE000708EB2 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1CE8906E1B9A7FE000708EB2 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1CE890591B9A7FE000708EB2;
+					};
+				};
+			};
+			buildConfigurationList = 1CE890551B9A7FE000708EB2 /* Build configuration list for PBXProject "Pos-Chair" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CE890511B9A7FE000708EB2;
+			productRefGroup = 1CE8905B1B9A7FE000708EB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CE890591B9A7FE000708EB2 /* Pos-Chair */,
+				1CE8906E1B9A7FE000708EB2 /* Pos-ChairTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CE890581B9A7FE000708EB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE890651B9A7FE000708EB2 /* Main.storyboard in Resources */,
+				1CA815041B9AB34700D7ABD1 /* 120icon.png in Resources */,
+				1CE8906A1B9A7FE000708EB2 /* LaunchScreen.xib in Resources */,
+				1CE890881B9A95F800708EB2 /* imageedit_1_3225234892.gif in Resources */,
+				1CE890851B9A8D7200708EB2 /* FrontPageLogo.png in Resources */,
+				1CE890801B9A855C00708EB2 /* SourceSansPro-Light.otf in Resources */,
+				1CE890861B9A8D7200708EB2 /* StoreIcon.png in Resources */,
+				1CE890901B9AAE7400708EB2 /* imageedit_1_8152280095.gif in Resources */,
+				1CE890671B9A7FE000708EB2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CE8906D1B9A7FE000708EB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CE890561B9A7FE000708EB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE890821B9A877400708EB2 /* SecondViewController.swift in Sources */,
+				1CE890621B9A7FE000708EB2 /* ViewController.swift in Sources */,
+				1CE890601B9A7FE000708EB2 /* AppDelegate.swift in Sources */,
+				1CE8908A1B9AA67B00708EB2 /* GraphView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CE8906B1B9A7FE000708EB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE890761B9A7FE000708EB2 /* Pos_ChairTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CE890711B9A7FE000708EB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CE890591B9A7FE000708EB2 /* Pos-Chair */;
+			targetProxy = 1CE890701B9A7FE000708EB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CE890631B9A7FE000708EB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CE890641B9A7FE000708EB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CE890681B9A7FE000708EB2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CE890691B9A7FE000708EB2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CE890771B9A7FE000708EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CE890781B9A7FE000708EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CE8907A1B9A7FE000708EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pos-Chair/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1CE8907B1B9A7FE000708EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pos-Chair/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1CE8907D1B9A7FE000708EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pos-ChairTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pos-Chair.app/Pos-Chair";
+			};
+			name = Debug;
+		};
+		1CE8907E1B9A7FE000708EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pos-ChairTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pos-Chair.app/Pos-Chair";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CE890551B9A7FE000708EB2 /* Build configuration list for PBXProject "Pos-Chair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CE890771B9A7FE000708EB2 /* Debug */,
+				1CE890781B9A7FE000708EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CE890791B9A7FE000708EB2 /* Build configuration list for PBXNativeTarget "Pos-Chair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CE8907A1B9A7FE000708EB2 /* Debug */,
+				1CE8907B1B9A7FE000708EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CE8907C1B9A7FE000708EB2 /* Build configuration list for PBXNativeTarget "Pos-ChairTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CE8907D1B9A7FE000708EB2 /* Debug */,
+				1CE8907E1B9A7FE000708EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CE890521B9A7FE000708EB2 /* Project object */;
+}
