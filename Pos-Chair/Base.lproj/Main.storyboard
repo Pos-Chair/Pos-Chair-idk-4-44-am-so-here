@@ -3,6 +3,12 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="SourceSansPro-Light.otf">
+            <string>SourceSansPro-Light</string>
+            <string>SourceSansPro-Light</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
@@ -18,7 +24,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTn-nH-1MU">
                                 <rect key="frame" x="125" y="416" width="124" height="60"/>
-                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Light" family="Source Sans Pro" pointSize="30"/>
                                 <state key="normal" title="Activity">
                                     <color key="titleColor" red="1" green="0.54394208754736839" blue="0.14529224311315755" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -29,7 +35,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TVy-uM-IQf">
                                 <rect key="frame" x="125" y="484" width="124" height="60"/>
-                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Light" family="Source Sans Pro" pointSize="30"/>
                                 <state key="normal" title="About Us">
                                     <color key="titleColor" red="1" green="0.55370771254736839" blue="0.14529224311315767" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
